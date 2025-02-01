@@ -2,8 +2,8 @@ import pytest
 from assignment import *
 
 def test_format_string():
-    assert format_string("John", 25) == "My name is John and I am 25 years old"
-    assert format_string("Alice", 30) == "My name is Alice and I am 30 years old"
+    assert format_string("nishant",25) == "My name is nishant and I am 25 years old"
+    assert format_string("rocky",30) == "My name is rocky and I am 30 years old"
 
 def test_conditional_check():
     assert conditional_check(15) == "Greater"
@@ -50,4 +50,4 @@ def test_bitwise_ops():
     result = bitwise_ops(12, 10)
     assert result["and"] == 8
     assert result["or"] == 14
-    assert result["xor"] == 6
+    assert result["xor"] == 6
