@@ -111,5 +111,4 @@ def bitwise_ops(a, b):
         "and": a & b,
         "or": a | b,
         "xor": a ^ b,
-        
-    }
+    }

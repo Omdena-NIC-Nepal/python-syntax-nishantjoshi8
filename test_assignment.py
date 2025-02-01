@@ -50,4 +50,4 @@ def test_bitwise_ops():
     result = bitwise_ops(12, 10)
     assert result["and"] == 8
     assert result["or"] == 14
-    assert result["xor"] == 6
+    assert result["xor"]==6
